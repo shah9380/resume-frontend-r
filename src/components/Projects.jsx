@@ -18,7 +18,7 @@ function Projects({padding}) {
         <div className='py-2'>
             <div className='flex gap-2 items-center'>
                 <h6 className='text-md font-medium'>Movix</h6>
-                <small className='text-sm font-medium'><span className='mr-1'>&#91;</span><a className='text-blue-600 underline' href="https://github.com/shah9380/movix-resume"><i>Github Link</i></a><span className='ml-1'>&#93;</span><span className='ml-2'>(<a className='text-green-600 mx-1' href="https://shah9380.github.io/Invoice-Generator/"><i className='text-center rounded-xl text-[10px]'>live...</i></a>)</span></small>
+                <small className='text-sm font-medium'><span className='mr-1'>&#91;</span><a className='text-blue-600 underline' href="https://github.com/shah9380/movix-resume"><i>Github Link</i></a><span className='ml-1'>&#93;</span><span className='ml-2'>(<a className='text-green-600 mx-1' href="https://movix-resume-1632.vercel.app/"><i className='text-center rounded-xl text-[10px]'>live...</i></a>)</span></small>
             </div>
             <ul className='text-[13px] list-disc md:pl-6 pl-4 md:pl-6'>
                 <li>Movix is a web application designed to simplify the process of managing movie collections. It allows users to browse, search, and save their favorite movies, enhancing the movie-watching experience.</li>
