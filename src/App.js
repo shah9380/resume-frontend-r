@@ -15,14 +15,17 @@ function App() {
   };
 
   return (
-    <div className="App max-w-[800px] mx-auto p-4 border" id="pdf-content">
-        <Header></Header>
-        <Summary></Summary>
-        <Experience></Experience>
-        <Projects></Projects>
-        <Skills></Skills>
-        <button onClick={downloadPdf}>Download PDF</button>
-    </div>
+    <section>
+      <div className="App max-w-[800px] mx-auto p-4 border" id="pdf-content">
+          <Header></Header>
+          <Summary></Summary>
+          <Experience></Experience>
+          <Projects></Projects>
+          <Skills></Skills>
+          <Certifications></Certifications>
+      </div>
+      <button onClick={downloadPdf}>Download PDF</button>
+    </section>
   );
 }
 
